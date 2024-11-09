@@ -3,40 +3,52 @@
   "WorkspaceRootPath": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\models\\consumoenergetico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\models\\consumoenergetico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\controllers\\dispositivoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\controllers\\dispositivoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\controllers\\consumosenergeticoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\controllers\\consumosenergeticoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\controllers\\ambientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\controllers\\ambientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\models\\dispositivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\models\\dispositivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\models\\ambiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\models\\ambiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\models\\consumoenergetico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\models\\consumoenergetico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\models\\dispositivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\models\\dispositivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\models\\ambiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\models\\ambiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|d:\\fiap\\2 semestre\\gs2\\chargetechapi\\chargetechapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A15A806-53AD-488B-92D5-F219C4023F2E}|ChargeTechApi\\ChargeTechApi.csproj|solutionrelative:chargetechapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,96 +58,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "ConsumosEnergeticosController.cs",
+              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Controllers\\ConsumosEnergeticosController.cs",
+              "RelativeDocumentMoniker": "ChargeTechApi\\Controllers\\ConsumosEnergeticosController.cs",
+              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Controllers\\ConsumosEnergeticosController.cs",
+              "RelativeToolTip": "ChargeTechApi\\Controllers\\ConsumosEnergeticosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T01:07:36.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AmbientesController.cs",
               "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Controllers\\AmbientesController.cs",
               "RelativeDocumentMoniker": "ChargeTechApi\\Controllers\\AmbientesController.cs",
               "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Controllers\\AmbientesController.cs",
               "RelativeToolTip": "ChargeTechApi\\Controllers\\AmbientesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T00:58:10.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "ChargeTechApi\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "ChargeTechApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABuAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Dispositivo.cs",
+              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Models\\Dispositivo.cs",
+              "RelativeDocumentMoniker": "ChargeTechApi\\Models\\Dispositivo.cs",
+              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Models\\Dispositivo.cs",
+              "RelativeToolTip": "ChargeTechApi\\Models\\Dispositivo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T23:34:55.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Program.cs",
-              "RelativeDocumentMoniker": "ChargeTechApi\\Program.cs",
-              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Program.cs",
-              "RelativeToolTip": "ChargeTechApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T00:09:42.002Z",
+              "WhenOpened": "2024-11-08T23:51:14.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\appsettings.json",
-              "RelativeDocumentMoniker": "ChargeTechApi\\appsettings.json",
-              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\appsettings.json",
-              "RelativeToolTip": "ChargeTechApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-09T00:07:43.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ChargeTechApi\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "ChargeTechApi\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "ChargeTechApi\\Models\\Usuario.cs",
+              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Models\\Usuario.cs",
+              "RelativeToolTip": "ChargeTechApi\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T00:06:28.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ConsumoEnergetico.cs",
-              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Models\\ConsumoEnergetico.cs",
-              "RelativeDocumentMoniker": "ChargeTechApi\\Models\\ConsumoEnergetico.cs",
-              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Models\\ConsumoEnergetico.cs",
-              "RelativeToolTip": "ChargeTechApi\\Models\\ConsumoEnergetico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T00:03:41.863Z",
+              "WhenOpened": "2024-11-08T23:42:34.435Z",
               "EditorCaption": ""
             },
             {
@@ -153,28 +127,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dispositivo.cs",
-              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Models\\Dispositivo.cs",
-              "RelativeDocumentMoniker": "ChargeTechApi\\Models\\Dispositivo.cs",
-              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Models\\Dispositivo.cs",
-              "RelativeToolTip": "ChargeTechApi\\Models\\Dispositivo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "ChargeTechApi\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "ChargeTechApi\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T23:51:14.685Z",
+              "WhenOpened": "2024-11-09T01:10:20.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsumoEnergetico.cs",
+              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Models\\ConsumoEnergetico.cs",
+              "RelativeDocumentMoniker": "ChargeTechApi\\Models\\ConsumoEnergetico.cs",
+              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Models\\ConsumoEnergetico.cs",
+              "RelativeToolTip": "ChargeTechApi\\Models\\ConsumoEnergetico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T00:03:41.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DispositivosController.cs",
+              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Controllers\\DispositivosController.cs",
+              "RelativeDocumentMoniker": "ChargeTechApi\\Controllers\\DispositivosController.cs",
+              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Controllers\\DispositivosController.cs",
+              "RelativeToolTip": "ChargeTechApi\\Controllers\\DispositivosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T01:09:09.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Program.cs",
+              "RelativeDocumentMoniker": "ChargeTechApi\\Program.cs",
+              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Program.cs",
+              "RelativeToolTip": "ChargeTechApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T00:09:42.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ChargeTechApi\\appsettings.json",
+              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\appsettings.json",
+              "RelativeToolTip": "ChargeTechApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-09T00:07:43.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "ChargeTechApi\\Models\\Usuario.cs",
-              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Models\\Usuario.cs",
-              "RelativeToolTip": "ChargeTechApi\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ChargeTechApi\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ChargeTechApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T23:42:34.435Z",
+              "WhenOpened": "2024-11-09T00:06:28.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ChargeTechApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ChargeTechApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T23:34:55.887Z",
               "EditorCaption": ""
             }
           ]
