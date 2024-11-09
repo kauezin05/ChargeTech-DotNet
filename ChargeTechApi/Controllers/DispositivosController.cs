@@ -1,11 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ChargeTechApi.Data;
-using ChargeTechApi.Models;
+﻿using ChargeTechApi.Models;
+using ChargeTechApi.Repositories;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 
 namespace ChargeTechApi.Controllers
 {
@@ -13,35 +10,36 @@ namespace ChargeTechApi.Controllers
     [ApiController]
     public class DispositivosController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly IDispositivoRepository _dispositivoRepository;
 
-        public DispositivosController(AppDbContext context)
+        public DispositivosController(IDispositivoRepository dispositivoRepository)
         {
-            _context = context;
+            _dispositivoRepository = dispositivoRepository;
         }
 
         // GET: api/Dispositivos
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Dispositivo>>> GetDispositivos()
         {
-            return await _context.Dispositivos.ToListAsync();
+            var dispositivos = await _dispositivoRepository.ObterTodos();
+            return Ok(dispositivos);
         }
 
-        // GET: api/Dispositivos/
+        // GET: api/Dispositivos/{id}
         [HttpGet("{id}")]
         public async Task<ActionResult<Dispositivo>> GetDispositivo(int id)
         {
-            var dispositivo = await _context.Dispositivos.FindAsync(id);
+            var dispositivo = await _dispositivoRepository.ObterPorId(id);
 
             if (dispositivo == null)
             {
                 return NotFound();
             }
 
-            return dispositivo;
+            return Ok(dispositivo);
         }
 
-        // PUT: api/Dispositivos/
+        // PUT: api/Dispositivos/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> PutDispositivo(int id, Dispositivo dispositivo)
         {
@@ -50,23 +48,7 @@ namespace ChargeTechApi.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(dispositivo).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!DispositivoExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            await _dispositivoRepository.Atualizar(dispositivo);
 
             return NoContent();
         }
@@ -80,31 +62,24 @@ namespace ChargeTechApi.Controllers
                 return BadRequest(ModelState);
             }
 
-            _context.Dispositivos.Add(dispositivo);
-            await _context.SaveChangesAsync();
+            await _dispositivoRepository.Adicionar(dispositivo);
 
             return CreatedAtAction("GetDispositivo", new { id = dispositivo.ID_DISPOSITIVO }, dispositivo);
         }
 
-        // DELETE: api/Dispositivos/
+        // DELETE: api/Dispositivos/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteDispositivo(int id)
         {
-            var dispositivo = await _context.Dispositivos.FindAsync(id);
+            var dispositivo = await _dispositivoRepository.ObterPorId(id);
             if (dispositivo == null)
             {
                 return NotFound();
             }
 
-            _context.Dispositivos.Remove(dispositivo);
-            await _context.SaveChangesAsync();
+            await _dispositivoRepository.Remover(id);
 
             return NoContent();
-        }
-
-        private bool DispositivoExists(int id)
-        {
-            return _context.Dispositivos.Any(e => e.ID_DISPOSITIVO == id);
         }
     }
 }

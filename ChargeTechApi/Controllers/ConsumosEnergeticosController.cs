@@ -1,11 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ChargeTechApi.Data;
-using ChargeTechApi.Models;
+﻿using ChargeTechApi.Models;
+using ChargeTechApi.Repositories;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 
 namespace ChargeTechApi.Controllers
 {
@@ -13,35 +10,36 @@ namespace ChargeTechApi.Controllers
     [ApiController]
     public class ConsumosEnergeticosController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly IConsumoEnergeticoRepository _consumoEnergeticoRepository;
 
-        public ConsumosEnergeticosController(AppDbContext context)
+        public ConsumosEnergeticosController(IConsumoEnergeticoRepository consumoEnergeticoRepository)
         {
-            _context = context;
+            _consumoEnergeticoRepository = consumoEnergeticoRepository;
         }
 
         // GET: api/ConsumosEnergeticos
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ConsumoEnergetico>>> GetConsumosEnergeticos()
         {
-            return await _context.ConsumosEnergeticos.ToListAsync();
+            var consumos = await _consumoEnergeticoRepository.ObterTodos();
+            return Ok(consumos);
         }
 
-        // GET: api/ConsumosEnergeticos/
+        // GET: api/ConsumosEnergeticos/{id}
         [HttpGet("{id}")]
         public async Task<ActionResult<ConsumoEnergetico>> GetConsumoEnergetico(int id)
         {
-            var consumoEnergetico = await _context.ConsumosEnergeticos.FindAsync(id);
+            var consumoEnergetico = await _consumoEnergeticoRepository.ObterPorId(id);
 
             if (consumoEnergetico == null)
             {
                 return NotFound();
             }
 
-            return consumoEnergetico;
+            return Ok(consumoEnergetico);
         }
 
-        // PUT: api/ConsumosEnergeticos/
+        // PUT: api/ConsumosEnergeticos/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> PutConsumoEnergetico(int id, ConsumoEnergetico consumoEnergetico)
         {
@@ -50,23 +48,7 @@ namespace ChargeTechApi.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(consumoEnergetico).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ConsumoEnergeticoExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            await _consumoEnergeticoRepository.Atualizar(consumoEnergetico);
 
             return NoContent();
         }
@@ -80,31 +62,24 @@ namespace ChargeTechApi.Controllers
                 return BadRequest(ModelState);
             }
 
-            _context.ConsumosEnergeticos.Add(consumoEnergetico);
-            await _context.SaveChangesAsync();
+            await _consumoEnergeticoRepository.Adicionar(consumoEnergetico);
 
             return CreatedAtAction("GetConsumoEnergetico", new { id = consumoEnergetico.ID_CONSUMO_ENERGETICO }, consumoEnergetico);
         }
 
-        // DELETE: api/ConsumosEnergeticos/
+        // DELETE: api/ConsumosEnergeticos/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteConsumoEnergetico(int id)
         {
-            var consumoEnergetico = await _context.ConsumosEnergeticos.FindAsync(id);
+            var consumoEnergetico = await _consumoEnergeticoRepository.ObterPorId(id);
             if (consumoEnergetico == null)
             {
                 return NotFound();
             }
 
-            _context.ConsumosEnergeticos.Remove(consumoEnergetico);
-            await _context.SaveChangesAsync();
+            await _consumoEnergeticoRepository.Remover(id);
 
             return NoContent();
-        }
-
-        private bool ConsumoEnergeticoExists(int id)
-        {
-            return _context.ConsumosEnergeticos.Any(e => e.ID_CONSUMO_ENERGETICO == id);
         }
     }
 }

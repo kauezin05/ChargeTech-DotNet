@@ -1,11 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ChargeTechApi.Data;
-using ChargeTechApi.Models;
+﻿using ChargeTechApi.Models;
+using ChargeTechApi.Repositories;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 
 namespace ChargeTechApi.Controllers
 {
@@ -13,35 +10,36 @@ namespace ChargeTechApi.Controllers
     [ApiController]
     public class AmbientesController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly IAmbienteRepository _ambienteRepository;
 
-        public AmbientesController(AppDbContext context)
+        public AmbientesController(IAmbienteRepository ambienteRepository)
         {
-            _context = context;
+            _ambienteRepository = ambienteRepository;
         }
 
         // GET: api/Ambientes
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Ambiente>>> GetAmbientes()
         {
-            return await _context.Ambientes.ToListAsync();
+            var ambientes = await _ambienteRepository.ObterTodos();
+            return Ok(ambientes);
         }
 
-        // GET: api/Ambientes/
+        // GET: api/Ambientes/{id}
         [HttpGet("{id}")]
         public async Task<ActionResult<Ambiente>> GetAmbiente(int id)
         {
-            var ambiente = await _context.Ambientes.FindAsync(id);
+            var ambiente = await _ambienteRepository.ObterPorId(id);
 
             if (ambiente == null)
             {
                 return NotFound();
             }
 
-            return ambiente;
+            return Ok(ambiente);
         }
 
-        // PUT: api/Ambientes/
+        // PUT: api/Ambientes/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAmbiente(int id, Ambiente ambiente)
         {
@@ -50,23 +48,7 @@ namespace ChargeTechApi.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(ambiente).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!AmbienteExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            await _ambienteRepository.Atualizar(ambiente);
 
             return NoContent();
         }
@@ -80,31 +62,24 @@ namespace ChargeTechApi.Controllers
                 return BadRequest(ModelState);
             }
 
-            _context.Ambientes.Add(ambiente);
-            await _context.SaveChangesAsync();
+            await _ambienteRepository.Adicionar(ambiente);
 
             return CreatedAtAction("GetAmbiente", new { id = ambiente.ID_AMBIENTE }, ambiente);
         }
 
-        // DELETE: api/Ambientes/
+        // DELETE: api/Ambientes/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAmbiente(int id)
         {
-            var ambiente = await _context.Ambientes.FindAsync(id);
+            var ambiente = await _ambienteRepository.ObterPorId(id);
             if (ambiente == null)
             {
                 return NotFound();
             }
 
-            _context.Ambientes.Remove(ambiente);
-            await _context.SaveChangesAsync();
+            await _ambienteRepository.Remover(id);
 
             return NoContent();
-        }
-
-        private bool AmbienteExists(int id)
-        {
-            return _context.Ambientes.Any(e => e.ID_AMBIENTE == id);
         }
     }
 }
