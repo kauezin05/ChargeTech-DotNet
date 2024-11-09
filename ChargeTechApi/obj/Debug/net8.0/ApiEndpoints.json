@@ -327,6 +327,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ChargeTechApi.Controllers.PrevisaoConsumoController",
+    "Method": "PreverConsumo",
+    "RelativePath": "api/PrevisaoConsumo/prever",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dadosConsumo",
+        "Type": "ChargeTechApi.Controllers.ConsumoDispositivo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ChargeTechApi.Controllers.ConsumoDispositivoPrediction",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ChargeTechApi.Controllers.UsuarioController",
     "Method": "GetUsuarios",
     "RelativePath": "api/Usuario",

@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "7bFjlMYv2W4Q0NvHY6IHG0iNnbJfE3kTdsaoKa3yzyg=",
+  "Hash": "wT8jYISKu2c4lwyO1+D8P50dHEPC5YTzZF1bW4aiMHY=",
   "Source": "ChargeTechApi",
   "BasePath": "_content/ChargeTechApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ChargeTechApi\\wwwroot",
+      "Source": "ChargeTechApi",
+      "ContentRoot": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\wwwroot\\",
+      "BasePath": "_content/ChargeTechApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\wwwroot\\MLModels\\ModeloConsumo.zip",
+      "SourceId": "ChargeTechApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FIAP\\2 SEMESTRE\\GS2\\ChargeTechApi\\ChargeTechApi\\wwwroot\\",
+      "BasePath": "_content/ChargeTechApi",
+      "RelativePath": "MLModels/ModeloConsumo.zip",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MLModels\\ModeloConsumo.zip"
+    }
+  ]
 }

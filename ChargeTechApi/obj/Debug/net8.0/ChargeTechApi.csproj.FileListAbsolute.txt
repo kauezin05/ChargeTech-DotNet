@@ -157,3 +157,4 @@ D:\FIAP\2 SEMESTRE\GS2\ChargeTechApi\ChargeTechApi\obj\Debug\net8.0\refint\Charg
 D:\FIAP\2 SEMESTRE\GS2\ChargeTechApi\ChargeTechApi\obj\Debug\net8.0\ChargeTechApi.pdb
 D:\FIAP\2 SEMESTRE\GS2\ChargeTechApi\ChargeTechApi\obj\Debug\net8.0\ChargeTechApi.genruntimeconfig.cache
 D:\FIAP\2 SEMESTRE\GS2\ChargeTechApi\ChargeTechApi\obj\Debug\net8.0\ref\ChargeTechApi.dll
+D:\FIAP\2 SEMESTRE\GS2\ChargeTechApi\ChargeTechApi\bin\Debug\net8.0\ChargeTechApi.staticwebassets.runtime.json

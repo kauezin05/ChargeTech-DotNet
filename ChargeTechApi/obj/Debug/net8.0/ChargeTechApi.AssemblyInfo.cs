@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChargeTechApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5871ae710a7387742c5829774d7d4f2b2ae46d91")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71e364d1927c126e29ad9145aeb2a159ee3220bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChargeTechApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChargeTechApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
