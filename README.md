@@ -18,7 +18,7 @@ Usei a **arquitetura monolítica**, onde todo o sistema é implantado em uma ún
 
 
 
-## Projeto de Monitoramento de Consumo de Energia**
+## Projeto de Monitoramento de Consumo de Energia
 
 O código foi desenvolvido com ênfase nas práticas de Clean Code e nos princípios SOLID, com o objetivo de garantir uma base sólida, manutenível e escalável.
 
@@ -38,5 +38,51 @@ A dependência de abstrações, e não de implementações concretas, foi assegu
 5. **Projeto**: Rode o projeto.
 6. **SWAGGER**: Voce ira acessar o Swagger em um caminho semelhante a esse https://localhost:7071/swagger/index.html.
 
+
+### TESTES SWAGGER
+
+- **POST-ML**
+
+![Post3](imagens-swagger/ML.png)
+
+- **POST**
+
+![Post](imagens-swagger/POST1.png)
+![Post2](imagens-swagger/POST2.png)
+![Post3](imagens-swagger/POST3.png)
+![Post4](imagens-swagger/POST4.png)
+
+
+
+
+- **GET**
+  
+![GET](imagens-swagger/GET1.png)
+![GET2](imagens-swagger/GET2.png)
+![GET3](imagens-swagger/GET3.png)
+![GET4](imagens-swagger/GET4.png)
+
+
+- **GET ID**
+  
+![GETID](imagens-swagger/GETID1.png)
+![GETID2](imagens-swagger/GETID2.png)
+![GETID3](imagens-swagger/GETID3.png)
+![GETID4](imagens-swagger/GETID4.png)
+
+- **PUT**
+  
+![PUT](imagens-swagger/PUT1.png)
+![PUT2](imagens-swagger/PUT2.png)
+![PUT3](imagens-swagger/PUT3.png)
+![PUT4](imagens-swagger/PUT4.png)
+
+
+- **DELETE/SELECT**
+  
+![DELETE](imagens-swagger/DELETE1.png)
+![DELETE2](imagens-swagger/DELETE2.png)
+![DELETE3](imagens-swagger/DELETE3.png)
+![DELETE4](imagens-swagger/DELETE4.png)
 
 
